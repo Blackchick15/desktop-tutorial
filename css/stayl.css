@@ -16,8 +16,38 @@ body{
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+}
+
 .list {
     list-style: none;
+  }
+
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section{
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 
   .link {
@@ -60,3 +90,101 @@ body{
   .current{
     color: var(--accent-color);
   }
+
+  /* hero */
+  .hero{
+    margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  text-align: center;
+  background-color: var(--hero-footer-background);
+
+  }
+
+  .hero-title{
+    margin: 0 auto 30px;
+  max-width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  }
+
+  .hero-button{
+    padding: 10px 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  min-width: 200px;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  }
+
+  .hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+  
+
+/*about-us*/
+
+.about-us{
+  padding-top: 94px;
+}
+
+.about-us-title{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+
+.about-us-title+p {
+  color: var(--secondary-text-color);
+}
+   
+/*Наша команда*/
+.section-title{
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-title{
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+.team-member{
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-info{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  
