@@ -204,3 +204,17 @@ p,
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+/* <!-- Шапка -->*/
+.top-navigation{
+  display: flex; 
+}
+
+.top-conection{
+  display: flex; 
+  margin-left: 94px;;
+} 
+
+.top-conection > .item:not(:last-child){
+  margin-right: 55px;
+}
