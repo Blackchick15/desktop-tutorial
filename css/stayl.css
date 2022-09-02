@@ -79,7 +79,7 @@ p,
 
   .logo {
     padding-top: 24px;
-    page-break-inside: 25px;
+    padding-bottom: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
@@ -171,6 +171,10 @@ p,
 }
 
 .list-team{
+display: flex;
+flex-wrap: wrap;
+margin-top: -30px;
+margin-left:-30px;
 
 }
 
@@ -181,6 +185,10 @@ p,
 }
 
 .team-member{
+  flex-basis: calc((100% - 30px * 4) / 4);
+  margin-top: 30px;
+  margin-left: 30px;
+
   margin-bottom: 10px;
 font-size: 16px;
 line-height: 1.18;
@@ -236,4 +244,57 @@ text-align: center;
 }
 .top-contacts > .item:not(:last-child){
   margin-right: 55px;
+}
+.border{
+  border-bottom:  1px solid #ECECEC;;
+}
+
+.about-us-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about-us-list  > .item{
+  flex-basis: calc((100% - 30px * 4) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.our-work-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.our-work-list > .item{
+  flex-basis: calc((100% - 30px * 3) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.filtr-bdn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button-menu{
+padding: 6px 22px;
+
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-menu:focus,
+.button-menu:hover{
+  color: #ffffff;
+  background-color: #2196f3;
 }
