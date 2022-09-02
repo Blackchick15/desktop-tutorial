@@ -218,3 +218,10 @@ p,
 .top-conection > .item:not(:last-child){
   margin-right: 55px;
 }
+.top-contacts{
+  display: flex;
+  margin-left: auto;
+}
+.top-contacts > .item:not(:last-child){
+  margin-right: 55px;
+}
