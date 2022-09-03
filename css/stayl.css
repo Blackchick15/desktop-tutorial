@@ -298,3 +298,16 @@ padding: 6px 22px;
   color: #ffffff;
   background-color: #2196f3;
 }
+
+.section-title{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.section-title > .projects-item{
+  flex-basis: calc((100% - 30px * 3) / 3);
+  margin-left: 15px;
+  margin-top: 15px;
+}
