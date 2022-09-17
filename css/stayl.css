@@ -46,6 +46,11 @@ p,
     margin-right: auto;
   }
 
+  .icon-contacts{
+
+
+  }
+
   .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -95,16 +100,16 @@ p,
   }
 
   /* hero */
-  .hero{
+  .hero {
     margin-right: auto;
-  margin-left: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  max-width: 1600px;
-  height: 600px;
-  text-align: center;
-  background-color: var(--hero-footer-background);
-
+    margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/hero.png);
+    background-color: var(--hero-footer-background);
   }
 
   .hero-title{
