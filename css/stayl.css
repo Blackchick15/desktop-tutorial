@@ -258,7 +258,11 @@ text-align: center;
   padding-bottom: 30px;
 }
 /* постійні клиенти */
-
+.client-linkt:hover,
+.client-link:focus{
+border:1px solid var(--accent-color);
+fill: var(--accent-color);
+}
 .client-list{
   display: flex;
   flex-wrap: wrap;
