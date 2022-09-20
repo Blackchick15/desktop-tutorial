@@ -300,10 +300,7 @@ text-align: center;
 }
 
 /* <!-- Шапка -->*/
-.top-navigation{
-  display: flex; 
-  align-items:center;
-}
+
 
 /* Герой */
 .top-conection{
