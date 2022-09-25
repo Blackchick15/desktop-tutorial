@@ -188,7 +188,36 @@ p,
 .hero-button:focus {
   background-color: #188ce8;
 }
-  
+
+ /* Особенности */
+ .link-client:hover,
+ .link-client:focus{
+ border:1px solid var(--accent-color);
+ fill: var(--accent-color);
+ }
+ .nav-list{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: -30px;
+   margin-left: -30px;
+ }
+ 
+ .nav-list > .nav-item{
+  flex-basis: calc((100% - 30px * 6) / 6);
+   margin-top: 30px;
+   margin-left: 30px;
+ }
+ .link-client{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 170px;
+   height: 90px;
+   border: 1px solid #AFB1B8;
+   border-radius: 4px;
+   fill: #AFB1B8;
+ }
+ 
 
 /*about-us*/
 
@@ -270,7 +299,7 @@ fill: var(--accent-color);
   margin-left: -30px;
 }
 
-.client-item > .client-item{
+.client-list > .client-item{
  flex-basis: calc((100% - 30px * 6) / 6);
   margin-top: 30px;
   margin-left: 30px;
