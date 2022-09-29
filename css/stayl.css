@@ -224,7 +224,17 @@ p,
 .about-us{
   padding-top: 94px;
 }
-
+  
+.abaut-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .about-us-title{
   margin-bottom: 10px;
   font-weight: 700;
