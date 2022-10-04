@@ -5,6 +5,7 @@
     --primary-background-color: #f5f4fa;
     --hero-footer-background: #2f303a;
     --nav-footer-colot: rgba(255, 255, 255, 0.6);
+    --animation-color:125 ;
 }
 
 
@@ -96,6 +97,7 @@ p,
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
+    transition:color:var(--animation)
     }
     
     .logo-interactive {
@@ -111,7 +113,7 @@ p,
     margin-right: 55px;
     }
     
-    .nav-link.carrent::after{
+    .nav-link.current::after{
       content: "";
       position: absolute;
       bottom: -1px;
@@ -121,7 +123,7 @@ p,
       border-radius: 2px;
      background: var(--accent-color);
     }
-    .nav-link.carrent{
+    .nav-link.current{
      position: relative;
      color: var(--accent-color);
     }
@@ -272,6 +274,10 @@ p,
   line-height: 1.16;
   text-align: center;
   color: var(--primary-text-color);
+}
+
+.item-woks{
+  position: relative;
 }
 
 .list-team{
