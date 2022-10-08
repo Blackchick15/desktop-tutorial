@@ -512,3 +512,22 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
+.link-nav{
+  color: #ECECEC;
+}
+
+.teem{
+  position: absolute;
+width: 116px;
+height: 16px;
+left: 516px;
+top: 2749px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.19;
+color: #FFFFFF;
+
+}
