@@ -276,6 +276,12 @@ p,
   color: var(--primary-text-color);
 }
 
+.our-team{
+  
+  
+  background: #F5F4FA;
+}
+
 .item-woks{
   position: relative;
 }
