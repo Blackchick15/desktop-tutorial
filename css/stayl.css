@@ -539,3 +539,32 @@ line-height: 1.19;
 color: #FFFFFF;
 
 }
+
+/* Приєднуйтесь */
+.section-ikon{
+  background: #2F303A;
+}
+
+.section-link{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  color: #FFFFFF;
+}
+
+.section-li{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-left: -10px;
+  color: #FFFFFF;
+}
+
+.section-li > .item-client{
+ flex-basis: calc((100% - 30px * 4) / 4);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.item-client{
+  color: #FFFFFF;
+}
