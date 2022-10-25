@@ -541,6 +541,15 @@ color: #FFFFFF;
 }
 
 /* Приєднуйтесь */
+.section-li  {
+  display: flex;
+  margin-left: 94px;
+  }
+  
+  .section-li >.item-client:not(:last-child) {
+  margin-right: 55px;
+  }
+
 .section-ikon{
   background: #2F303A;
 }
@@ -557,7 +566,7 @@ color: #FFFFFF;
   margin-top: -10px;
   margin-left: -10px;
   color: #FFFFFF;
-}
+/* }
 
 .section-li > .item-client{
  flex-basis: calc((100% - 30px * 4) / 4);
@@ -567,4 +576,4 @@ color: #FFFFFF;
 
 .item-client{
   color: #FFFFFF;
-}
+} */
