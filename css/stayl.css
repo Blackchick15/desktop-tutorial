@@ -6,6 +6,7 @@
     --hero-footer-background: #2f303a;
     --nav-footer-colot: rgba(255, 255, 255, 0.6);
     --animation-color:125 ;
+    --animation: 250ms;
 }
 
 
@@ -58,6 +59,8 @@ p,
   .link {
     text-decoration: none;
     color: var(--primary-text-color);
+    font-style: normal;
+    transition:var(--animatiom);
   }
 
   
@@ -199,6 +202,7 @@ p,
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  transition: var(--animatiom),background-color var(--animatiom);
   }
 
   .hero-button:hover,
@@ -392,7 +396,9 @@ fill: var(--accent-color);
   fill: #AFB1B8;
 }
  /* портфолио */
- 
+
+
+
 .description {
   padding: 20px 24px;
   background: #FFFFFF;
