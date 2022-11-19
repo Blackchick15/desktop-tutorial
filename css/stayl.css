@@ -5,8 +5,9 @@
     --primary-background-color: #f5f4fa;
     --hero-footer-background: #2f303a;
     --nav-footer-colot: rgba(255, 255, 255, 0.6);
-    --animation-color:125 ;
-    --animation: 250ms;
+    --animation-color:125ms ;
+    --animation:  250ms ease-in;
+     
 }
 
 
@@ -60,7 +61,7 @@ p,
     text-decoration: none;
     color: var(--primary-text-color);
     font-style: normal;
-    transition:var(--animatiom);
+    transition:color var(--animatiom);
   }
 
   
@@ -100,7 +101,7 @@ p,
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
-    transition:color:var(--animation)
+    transition:color :var(--animation)
     }
     
     .logo-interactive {
@@ -202,7 +203,7 @@ p,
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  transition: var(--animatiom),background-color var(--animatiom);
+  transition:color var(--animatiom),background-color var(--animatiom);
   }
 
   .hero-button:hover,
@@ -351,13 +352,14 @@ text-align: center;
 .social-icon {
   display: inline-flex;
   padding-bottom: 30px;
-
+  transition: fill var(--animatiom);
 }
 
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
+  transition: var(--animatiom), background-color var(--animatiom) ;
 }
  
 
@@ -394,8 +396,11 @@ fill: var(--accent-color);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
+  transition: var(--animatiom), border var(--animatiom) 
 }
+
  /* портфолио */
+
 
 
 
@@ -517,6 +522,7 @@ padding: 6px 22px;
   border: transparent;
   border-radius: 4px;
   cursor: pointer;
+  transition:   var(--animatiom);
 }
 
 .button-menu:focus,
