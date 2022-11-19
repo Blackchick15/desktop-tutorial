@@ -61,7 +61,7 @@ p,
     text-decoration: none;
     color: var(--primary-text-color);
     font-style: normal;
-    transition:color var(--animatiom);
+    transition:color var(--animatiom) cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   
@@ -101,7 +101,7 @@ p,
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
-    transition:color :var(--animation)
+    transition:color var(--animation) cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .logo-interactive {
@@ -203,7 +203,7 @@ p,
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  transition:color var(--animatiom),background-color var(--animatiom);
+  transition:color var(--animatiom),background-color var(--animatiom) cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .hero-button:hover,
@@ -342,7 +342,7 @@ text-align: center;
   border-radius: 50%;
   fill: #AFB1B8;
   background-color: #ffffff;
-  
+  transition: fill var(--animation) background-color var(--animatiom) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon>.social-icon-item:not(:last-child) {
@@ -411,6 +411,7 @@ fill: var(--accent-color);
   border-right: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  transition: var(--animation) border var(--animatiom);
 }
 
 .description:hover,
@@ -512,17 +513,17 @@ fill: var(--accent-color);
 }
 
 .button-menu{
-padding: 6px 22px;
-
+  padding: 6px 22px;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   border: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
-  transition:   var(--animatiom);
+  transition:   var(--animatiom) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-menu:focus,
@@ -606,7 +607,7 @@ padding: 6px 22px;
   border-radius: 50%;
   fill: #FFFFFF;
   background: rgba(255, 255, 255, 0.1);
-  transform: color var(--animation), backround-color var(--animatiom);
+  transform: color var(--animation), backround-color var(--animatiom) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon__link:hover,
@@ -667,3 +668,7 @@ padding: 6px 22px;
   fill: currentColor;
   margin-left: 10px;
 }
+
+    /* Modal */
+
+    
